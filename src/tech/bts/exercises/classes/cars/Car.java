@@ -12,11 +12,11 @@ public class Car {
         this.model = model;
         this.speed = speed;
 
-
     }
 
-    // Methods
+    // Methods / Functions
 
-
-
+    public void printStatus() {
+        System.out.println(this.model + " driving at " + this.speed + "km/h");
+    }
 }

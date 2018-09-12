@@ -8,9 +8,7 @@ public class Main {
 
         Car audi = new Car("Audi A3", 150);
 
-
-        System.out.println(ferrari.model + " driving at " + ferrari.speed + "km/h");
-        System.out.println(audi.model + " driving at " + audi.speed + "km/h");
-
+        ferrari.printStatus();
+        audi.printStatus();
     }
 }
