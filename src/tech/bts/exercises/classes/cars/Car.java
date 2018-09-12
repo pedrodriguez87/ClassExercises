@@ -23,6 +23,17 @@ public class Car {
         if (this.speed > 300) {
             this.speed = 300;
         }
+
+    }
+
+    public void decelerate(int amount){
+
+        this.speed = this.speed - amount;
+        if (this.speed < 0){
+            this.speed = 0;
+
+
+        }
     }
 
     public void printStatus() {

@@ -10,8 +10,9 @@ public class Main {
 
         ferrari.accelerate(100);
         ferrari.accelerate(100);
-        ferrari.accelerate(99);
-        ferrari.accelerate(50);
+        ferrari.accelerate(100);
+        ferrari.decelerate(95);
+        ferrari.decelerate(10);
 
 
         ferrari.printStatus();
